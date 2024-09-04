@@ -1,0 +1,308 @@
+{
+  "terrains": [
+    {
+      "id": 1,
+      "name": "Sunshine Farm",
+      "description": "Fertile land with good drainage and water access.",
+      "location": "Main Street, City X",
+      "usageClauses": "Only for organic vegetable cultivation. No use of chemical pesticides.",
+      "sizeSquareMeters": 20234,
+      "sale": 300000,
+      "rent": 10000,
+      "image": "https://img10.naventcdn.com/avisos/resize/11/01/42/32/45/72/1200x1200/1351713741.jpg?isFirstImage=true"
+    },
+    {
+      "id": 2,
+      "name": "Hope Estate",
+      "description": "Large land with well-fertilized soil and irrigation system.",
+      "location": "Main Road, City Y",
+      "usageClauses": "Allowed for cultivation of all types of crops. Must respect crop rotation.",
+      "sizeSquareMeters": 40468,
+      "sale": 300000,
+      "rent": 10000,
+      "image": "https://img10.naventcdn.com/avisos/resize/11/00/66/14/80/55/1200x1200/355757231.jpg?isFirstImage=true"
+    },
+    {
+      "id": 3,
+      "name": "Flower Ranch",
+      "description": "Land with warm climate ideal for tropical fruit cultivation.",
+      "location": "Central Avenue, City Z",
+      "usageClauses": "Exclusive use for tropical fruit cultivation. No heavy machinery allowed.",
+      "sizeSquareMeters": 32374,
+      "sale": 300000,
+      "rent": 10000,
+      "image": "https://img10.naventcdn.com/avisos/resize/11/00/66/31/99/90/1200x1200/359139793.jpg?isFirstImage=true"
+    },
+    {
+      "id": 4,
+      "name": "Green Fields",
+      "description": "Flat land with excellent soil composition and nearby water source.",
+      "location": "Rural Route 1, City A",
+      "usageClauses": "Suitable for a variety of crops. No restrictions on pesticide use.",
+      "sizeSquareMeters": 25000,
+      "sale": 300000,
+      "rent": 10000,
+      "image": "https://img10.naventcdn.com/avisos/resize/11/01/42/01/86/49/1200x1200/1154108463.jpg?isFirstImage=true"
+    },
+    {
+      "id": 5,
+      "name": "Mountain View Farm",
+      "description": "Sloped terrain with rich soil and natural irrigation.",
+      "location": "Mountain Road, City B",
+      "usageClauses": "Recommended for vineyards and orchards. No chemical fertilizers allowed.",
+      "sizeSquareMeters": 30000,
+      "sale": 300000,
+      "rent": 10000,
+      "image": "https://img10.naventcdn.com/avisos/resize/111/01/42/83/12/58/1200x1200/1442294370.jpg?rapc=bXZhX2ltYWdl?isFirstImage=true"
+    },
+    {
+      "id": 6,
+      "name": "Riverfront Estate",
+      "description": "Land bordering a river, perfect for rice paddies and aquaculture.",
+      "location": "Riverfront Drive, City C",
+      "usageClauses": "Reserved for rice cultivation and fish farming. No hunting or fishing allowed.",
+      "sizeSquareMeters": 15000,
+      "sale": 300000,
+      "rent": 10000,
+      "image": "https://img10.naventcdn.com/avisos/resize/11/00/66/27/03/74/1200x1200/358239614.jpg?isFirstImage=true"
+    }
+  ],
+  "machinery": [
+    {
+      "id": "1",
+      "name": "Tractor Massey Ferguson 5455",
+      "price": "$150",
+      "image": "https://www.ipesa.com.pe/blog/wp-content/uploads/2023/09/potencia-tractor-agricola-ipesa-768x554.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Excavadora Caterpillar 320D",
+      "price": "$300",
+      "image": "https://machineryline.pe/img/s/maquinaria-de-construccion-excavadora-de-cadenas-Caterpillar-320D---1639384107989189293_big--16102701220819862400.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Segadora John Deere 8700",
+      "price": "$30",
+      "image": "https://www.deere.com/assets/images/region-3/products/hay-and-forage/es_la_aspiracional.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Camión Volquete Volvo FMX",
+      "price": "$34",
+      "image": "https://www.penarandadiesel.com.pe/mpw_file/images/w_modulos_img_20210201_161941_e49202.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Plataforma Elevadora Genie GS-1930",
+      "price": "$34",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbUPWQDKfB7M7u8OU9lXHtalyRIVuXVsZRGw&s"
+    },
+    {
+      "id": "6",
+      "name": "Compactadora Bomag BW211D-5",
+      "price": "$24",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAUUTWTR6jZrrMIMV5ZSMbDmujRqkq0iPQAw&s"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "name": "Trigo",
+      "quantity": 300,
+      "type": "semilla",
+      "purchase": 1,
+      "sale": 1.5,
+      "image": "https://img10.naventcdn.com/avisos/resize/11/01/42/32/45/72/1200x1200/1351713741.jpg?isFirstImage=true"
+    },
+    {
+      "id": 2,
+      "name": "Maiz",
+      "quantity": 200,
+      "type": "semilla",
+      "purchase": 1.5,
+      "sale": 2,
+      "image": "https://www.campomar.com.ar/wp-content/uploads/2019/06/maiz-amarillo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Soja",
+      "quantity": 100,
+      "type": "semilla",
+      "purchase": 2,
+      "sale": 2.5,
+      "image": "https://www.infocampo.com.ar/wp-content/uploads/2019/07/soja-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Trigo",
+      "quantity": 300,
+      "type": "grano",
+      "purchase": 1,
+      "sale": 1.5,
+      "image": "https://img10.naventcdn.com/avisos/resize/11/01/42/32/45/72/1200x1200/1351713741.jpg?isFirstImage=true"
+    },
+    {
+      "id": 5,
+      "name": "Maiz",
+      "quantity": 200,
+      "type": "grano",
+      "purchase": 1.5,
+      "sale": 2,
+      "image": "https://www.campomar.com.ar/wp-content/uploads/2019/06/maiz-amarillo.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Soja",
+      "quantity": 100,
+      "type": "grano",
+      "purchase": 2,
+      "sale": 2.5,
+      "image": "https://www.infocampo.com.ar/wp-content/uploads/2019/07/soja-1.jpg"
+    }
+  ],
+  "teams": [
+    {
+      "id": 4,
+      "name": "Develop"
+    },
+    {
+      "id": 5,
+      "name": "Feature"
+    },
+    {
+      "id": 6,
+      "name": "Hotfix"
+    },
+    {
+      "id": 7,
+      "name": "Main"
+    },
+    {
+      "id": 8,
+      "name": "Deployment",
+      "value": {
+        "id": null,
+        "name": ""
+      }
+    },
+    {
+      "id": 10,
+      "name": "Release"
+    }
+  ],
+  "workers": [
+    {
+      "id": 5,
+      "name": "Mariana"
+    },
+    {
+      "id": 6,
+      "name": "Natanael"
+    },
+    {
+      "id": 7,
+      "name": "Marcelo"
+    },
+    {
+      "id": 8,
+      "name": "Piero"
+    },
+    {
+      "id": 9,
+      "name": "Eduardo"
+    }
+  ],
+  "teamWorkers": [
+    {
+      "teamId": 6,
+      "workerId": 8,
+      "id": 1
+    },
+    {
+      "teamId": 8,
+      "workerId": 7,
+      "id": 2
+    },
+    {
+      "teamId": 7,
+      "workerId": 5,
+      "id": 3
+    },
+    {
+      "teamId": 10,
+      "workerId": 6,
+      "id": 4
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "name": "FirstDocument"
+    },
+    {
+      "id": 2,
+      "name": "ResourceManagement"
+    },
+    {
+      "id": 3,
+      "name": "MyDocument"
+    },
+    {
+      "id": 4,
+      "name": "AllTheDocuments"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "SN_Marcelo",
+      "first-name": "Marcelo",
+      "last-name": "Neyra",
+      "email": "marcelo@gmail.com",
+      "phone-number": 999888777,
+      "identification-number": 77766655,
+      "password": "P@ssW0rd"
+    },
+    {
+      "id": "2",
+      "username": "Ana",
+      "first-name": "Mariana",
+      "last-name": "Chambi",
+      "email": "mariana@outlook.com",
+      "phone-number": 987654321,
+      "identification-number": 12345678,
+      "password": "C0ntr@seN4"
+    },
+    {
+      "id": "3",
+      "username": "Eddy",
+      "first-name": "Eduardo",
+      "last-name": "Soto",
+      "email": "eduardo@ymail.com",
+      "phone-number": 912345678,
+      "identification-number": 88877766,
+      "password": "Edu4rd%s"
+    },
+    {
+      "id": "4",
+      "username": "Natanael",
+      "first-name": "Natanael",
+      "last-name": "Mendoza",
+      "email": "natael2024@hotmail.com",
+      "phone-number": 900111222,
+      "identification-number": 87654321,
+      "password": "naTana3$"
+    },
+    {
+      "id": "5",
+      "username": "Piero Ventura",
+      "first-name": "Piero",
+      "last-name": "Ventura",
+      "email": "pieroventura@gmail.com",
+      "phone-number": 966222111,
+      "identification-number": 49871254,
+      "password": "pier0&Ventura"
+    }
+  ]
+}
