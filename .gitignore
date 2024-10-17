@@ -1,5 +1,7 @@
 package-lock.json
 pnpm-lock.yaml
+bun.lockb
+yarn.lock
 # Logs
 logs
 *.log
