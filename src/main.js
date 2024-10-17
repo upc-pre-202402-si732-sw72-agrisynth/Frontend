@@ -28,12 +28,12 @@ import Sidebar from "primevue/sidebar";
 import FileUpload from "primevue/fileupload";
 
 //Primevue
-import "primevue/resources/themes/aura-light-green/theme.css";
 import "primeflex/primeflex.css";
 import "primeicons/primeicons.css";
+import Aura from "@primevue/themes/aura";
 
 //Pinia
-import {createPinia} from "pinia";
+import { createPinia } from "pinia";
 const pinia = createPinia();
 
 //Authentication Services
@@ -41,34 +41,42 @@ import ToastService from "primevue/toastservice";
 import DialogService from "primevue/dialogservice";
 import ConfirmationService from "primevue/confirmationservice";
 
-
-
 createApp(App)
-    .use(PrimeVue, { ripple: true })
-    .use(router)
-    .use(pinia)
-    .use(ToastService)
-    .use(DialogService)
-    .use(ConfirmationService)
-    .component("pv-file-upload", FileUpload)
-    .component("pv-input-text", InputText)
-    .component("pv-dropdown", Dropdown)
-    .component("pv-tree-table", TreeTable)
-    .component("pv-dialog", Dialog)
-    .component("pv-button", Button)
-    .component("pv-card", Card)
-    .component("pv-panel", Panel)
-    .component("pv-icon-field", IconField)
-    .component("pv-icon", InputIcon)
-    .component("pv-fieldset", Fieldset)
-    .component("pv-image", Image)
-    .component("pv-divider", Divider)
-    .component("pv-splitter", Splitter)
-    .component("pv-splitter-panel", SplitterPanel)
-    .component("pv-data-table", DataTable)
-    .component("pv-column", Column)
-    .component("pv-float-label", FloatLabel)
-    .component("pv-input-mask", InputMask)
-    .component('pv-toolbar', Toolbar)
-    .component('pv-sidebar',Sidebar)
-  .mount("#app");
+	.use(PrimeVue, {
+		ripple: true,
+		theme: {
+			preset: Aura,
+			options: {
+				prefix: "pv",
+				darkModeSelector: "none",
+				cssLayer: false,
+			},
+		},
+	})
+	.use(router)
+	.use(pinia)
+	.use(ToastService)
+	.use(DialogService)
+	.use(ConfirmationService)
+	.component("pv-file-upload", FileUpload)
+	.component("pv-input-text", InputText)
+	.component("pv-dropdown", Dropdown)
+	.component("pv-tree-table", TreeTable)
+	.component("pv-dialog", Dialog)
+	.component("pv-button", Button)
+	.component("pv-card", Card)
+	.component("pv-panel", Panel)
+	.component("pv-icon-field", IconField)
+	.component("pv-icon", InputIcon)
+	.component("pv-fieldset", Fieldset)
+	.component("pv-image", Image)
+	.component("pv-divider", Divider)
+	.component("pv-splitter", Splitter)
+	.component("pv-splitter-panel", SplitterPanel)
+	.component("pv-data-table", DataTable)
+	.component("pv-column", Column)
+	.component("pv-float-label", FloatLabel)
+	.component("pv-input-mask", InputMask)
+	.component("pv-toolbar", Toolbar)
+	.component("pv-sidebar", Sidebar)
+	.mount("#app");
