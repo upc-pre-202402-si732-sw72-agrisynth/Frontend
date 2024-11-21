@@ -1,40 +1,39 @@
 # CropSphere
+[![My Skills](https://skillicons.dev/icons?i=vue,js,github,git,html,css,figma,vercel,firebase,discord
+)](https://skillicons.dev)
 
-This a front end application for CropSphere. This application is built with Vue 3 and Vite.
+# Desarrollo del trabajo final 😊
 
-This template should help get you started developing with Vue 3 in Vite.
+Somos el equipo CropSphere, ⭐️ conformado por los estudiantes de la carrera de Ingenieria de Software📙 de la Universidad Peruana de Ciencias Aplicadas🚀.
 
-## Recommended IDE Setup
+## Integrantes 👬
+- Johan Karl Bottger Salazar
+- Diego Rafael Cisneros Tafur
+- Miguel Ángel Huamán Cataño
+- Mario Joaquín López Acuña
+- Marcelo Sebastián Neyra Santa Cruz
+- Néstor Hernán Velarde Gonzales
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tecnologías usandas 💚
+- Vue
+- PrimeVue
+- Axios
+- i18n
+- Vue Router
+- PrimeFlex
+- PrimeIcons
 
-## Customize configuration
+## Herramienta de gestión de proyectos 👽
+- Trello
+- GitHub
+- Discord
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Herramienta de diseño ❄️
+- Figma
 
-## Project Setup
+## Herramienta de versionamiento
+- Git
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm lint
-```
-
-## Server
-json-server --watch server/db.json
+## Herramienta de deployment 🚀
+- Vercel (fake api)
+- Netlify (deploy)
