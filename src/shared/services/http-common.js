@@ -1,11 +1,15 @@
 import axios from "axios";
-import {authenticationInterceptor} from "@/iam/services/authentication.interceptor.js";
+import { authenticationInterceptor } from "@/iam/services/authentication.interceptor.js";
 
-const API_BASE_URL = "https://agrisynthservice-production.up.railway.app/api/v1";
+const API_BASE_URL =
+	"https://agrisynth-backend-1-fshtaze6bvh4hth8.mexicocentral-01.azurewebsites.net/api/v1";
 
 const http = axios.create({
-    baseURL: API_BASE_URL,
-    headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*'}
+	baseURL: API_BASE_URL,
+	headers: {
+		"Content-Type": "application/json",
+		"Access-Control-Allow-Origin": "*",
+	},
 });
 
 // Add authentication interceptor
